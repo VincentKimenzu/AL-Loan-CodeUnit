@@ -1,0 +1,28 @@
+{
+  "id": "a20b4679-5775-4642-93cb-d09d91dfe029",
+  "name": "PROJECT006",
+  "publisher": "Default Publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "1.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50250
+    }
+  ],
+  
+  "runtime": "3.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
