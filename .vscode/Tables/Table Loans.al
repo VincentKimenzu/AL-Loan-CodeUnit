@@ -9,6 +9,7 @@ table 50123 "Loans1"
             DataClassification = ToBeClassified;
             Editable = false;
 
+
         }
         field(2; "Member Number"; Code[50])
         {
@@ -194,8 +195,10 @@ table 50123 "Loans1"
             "Loan Number" := NoSeriesMgmt.GetNextNo('LOAN', WorkDate, true);
         end;
         "Captured By" := UserId;
-        // Guarantorship."Loan Number" := "Loan Number";
-        // Guarantorship.Insert()
+        Guarantorship."Loan Number" := "Loan Number";
+        Guarantorship."Guaranteed Member No." := "Member Number";
+        Guarantorship.Insert(true);
+
 
 
     end;
